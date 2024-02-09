@@ -5,7 +5,7 @@ import java.util.concurrent.locks.ReentrantLock;
 
 public class LockExample {
     private static int sharedCounter = 0;
-    private static Lock lock = new ReentrantLock();
+    private static final Lock lock = new ReentrantLock();
 
     public static void main(String[] args) {
         Thread thread1 = new Thread(() -> {
