@@ -1,5 +1,7 @@
 package org.example.forloop;
 
+import java.util.ArrayList;
+
 public class ForLoopPattern {
     public static void main(String[] args) {
 
